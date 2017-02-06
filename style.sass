@@ -9,24 +9,24 @@ body
 .navigation 
   height: 60px
 
-header > nav ul 
-  margin: 0
-  padding: 0
-  text-align: center
-  list-style-type: none 
+header 
+  nav ul 
+    margin: 0
+    padding: 0
+    text-align: center
+    list-style-type: none 
 
-    li
+  li
+    display: block
+
+    a 
+      line-height: 40px
       display: block
+      color: #fff
+      text-decoration: none
+      text-transform: uppercase 
 
-        a 
-          line-height: 40px
-          display: block
-          color: #fff
-          text-decoration: none
-          text-transform: uppercase 
-
-          &:hover 
-          :hover
-            background: #C40404
-            color: #FBE048
-            font-weight: bold
+      &:hover 
+        background: #C40404
+        color: #FBE048
+        font-weight: bold
